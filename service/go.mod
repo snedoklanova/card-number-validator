@@ -1,4 +1,4 @@
-module github.com/snedoklanova/credit-card-number-validator
+module github.com/snedoklanova/card-number-validator
 
 go 1.24.9
 
