@@ -14,9 +14,9 @@ type validator struct {
     Result bool  `json:"result"`
 }
 
-// getValidationByCardNumber check whose Number value matches the rules
+// GetValidationByCardNumber check whose Number value matches the rules
 // parameter sent by the client, then returns true or false.
-func getValidationByCardNumber(c *gin.Context) {
+func GetValidationByCardNumber(c *gin.Context) {
     		number := c.Param("number")
 
 				fmt.Printf("Type of a is %T\n", number)

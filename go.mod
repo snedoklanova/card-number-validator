@@ -2,9 +2,7 @@ module github.com/snedoklanova/card-number-validator
 
 go 1.24.9
 
-require (
-	github.com/gin-gonic/gin v1.11.0
-)
+require github.com/gin-gonic/gin v1.11.0
 
 require (
 	github.com/bytedance/sonic v1.14.0 // indirect
