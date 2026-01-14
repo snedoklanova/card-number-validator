@@ -8,15 +8,10 @@ import (
 
 func main() {
 	router := gin.Default()
-  router.GET("/albums", album.GetAlbums)
+	router.GET("/albums", album.GetAlbums)
 	router.GET("/albums/:id", album.GetAlbumByID)
 	router.GET("/validate/:number", validator.GetValidationByCardNumber)
 	router.POST("/albums", album.PostAlbums)
-	
 
-  router.Run("localhost:8080")
+	router.Run("localhost:8080")
 }
-
-
-
-
